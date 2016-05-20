@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:background="@drawable/black_border"
+        android:layout_marginTop="74dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textListView_Page"
+        android:text="This is the ListView Page!"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        android:textColor="@color/BLACK"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/theListView"
+        android:layout_below="@+id/textListView_Page"
+        android:background="@drawable/black_border"></ListView>
+
+</RelativeLayout>
